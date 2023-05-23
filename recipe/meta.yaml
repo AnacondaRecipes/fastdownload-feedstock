@@ -18,6 +18,7 @@ requirements:
   host:
     - python
     - pip
+    - wheel
   run:
     - python
     - fastprogress
@@ -30,7 +31,8 @@ test:
     - pip check
   requires:
     - pip
-    # packaging is unused by fastcore, but `pip check` fails if missing it.
+    # packaging is unused by fastcore, but `pip check` fails 
+    # if missing it.
     - packaging
 
 about:
