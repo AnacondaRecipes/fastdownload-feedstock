@@ -31,9 +31,6 @@ test:
     - pip check
   requires:
     - pip
-    # packaging is unused by fastcore, but `pip check` fails 
-    # if missing it.
-    - packaging
 
 about:
   home: https://github.com/fastai/fastdownload/tree/master/
