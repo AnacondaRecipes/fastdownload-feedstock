@@ -36,8 +36,16 @@ test:
 about:
   home: https://github.com/fastai/fastdownload/tree/master/
   summary: A general purpose data downloading library.
+  description: |
+    If you have datasets or other archives that you want
+    to make available to your users, and ensure they always
+    have the latest versions and that they are downloaded
+    correctly, fastdownload can help.
   license: Apache-2.0
+  license_family: Apache
   license_file: LICENSE
+  dev_url: https://github.com/fastai/fastdownload
+  doc_url: https://fastdownload.fast.ai/
 
 extra:
   recipe-maintainers:
